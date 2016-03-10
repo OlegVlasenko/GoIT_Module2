@@ -1,0 +1,12 @@
+@startuml
+
+
+File <|-- Txt
+File <|-- Mp3
+File <|-- Jpeg
+
+Class Directory
+
+Directory "1" o-- "0..*" File
+
+@enduml

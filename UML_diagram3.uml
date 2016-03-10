@@ -1,0 +1,10 @@
+@startuml
+
+
+MusicInstrument <|-- Guitar
+MusicInstrument <|-- Piano
+MusicInstrument <|-- Trumpet
+
+Shop "1" o-- "0..*" MusicInstrument
+
+@enduml

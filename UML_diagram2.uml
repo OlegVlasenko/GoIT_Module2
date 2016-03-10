@@ -1,0 +1,12 @@
+@startuml
+
+Flower <|-- Rose
+Flower <|-- Aster 
+Flower <|-- Chamomile
+Flower <|-- Tulip
+
+Bouquet "1" o-- "1..*" Flower
+
+Rosebush "1" o--  "1..*" Rose
+
+@enduml
